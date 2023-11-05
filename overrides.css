@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: black;
+  background-image: linear-gradient(180deg, DarkRed, black);
+  background-attachment: fixed;
+}
+
+.container {
+  padding: 20px;
+  margin: 20px;
+  background-color: white;
+}
+
+.header {
+  margin-top: 50px;
+  padding: 20px;
+  background-color: white;
+  line-height: 2; /* Double-spaced text */
+}
+
+.footer, .content {
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 20px;
+  background-color: white;
+  line-height: 2; /* Double-spaced text */
+}
+
+.header {
+  margin-left: 50px;
+  margin-right: 50px;
+  line-height: 2; /* Double-spaced text */
+}
+
+.footer {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  line-height: 2; /* Double-spaced text */
+}
+
+.content {
+  margin-left: 50px;
+  margin-right: 50px;
+  line-height: 2; /* Double-spaced text */
+}
+
+.first-image, .second-image, .the-bigbad {
+  float: left;
+  margin: 0 20px 0 0;
+}
+
+.second-image {
+  float: right;
+  margin: 0 0 20px 20px;
+}
+
+.the-bigbad {
+  float: left;
+  margin: 0 20px 20px 0;
+}
+
+.big-drop {
+  width: 100%;
+}
+
